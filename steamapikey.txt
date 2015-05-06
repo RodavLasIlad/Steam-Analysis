@@ -1,0 +1,5 @@
+Your Steam Web API Key
+
+Key: 07538DD268CEBB8D9A6872DD8C4F3E94
+
+Domain Name: www.github.com/rodavlasilad

@@ -1,0 +1,58 @@
+I. Exploratory: collect sample data: GTA V, Evolve, CSGO
+	1. Load in game reviews from meta site
+		a. Read API docs
+		b. Use beautiful soup?
+		c. save from sample games
+		d. store data (CSV?)
+		e. broader data? (overall average scores, etc.)
+	2. Load in user reviews from steam
+		a. API?
+		b. Beautiful Soup?
+		c. Store data from sample games
+		d. store the data (CSV?)
+		e. broader data? (overall sales, etc.)
+	3. Load in steam sales data
+		a. Steam DB?
+		b. Steam DB Alternatives?
+		c. API?
+			i. Visual.net
+			ii. Install steam shop API
+			iii. Access steams API
+			iv. Steam API docs
+			v. pull sample data from API
+			vi. store sample data (SQL?)
+	4. Analyze steam data
+		a. patterns in steam data?
+		b. correlations between game sales?
+		c. if broader data got pulled, are there correlations? Can the games be compared in how they faired vs. larger trends?		
+	5. Analyze word counts in game reviews from meta
+		a. patterns?
+		b. words that exist in all? words that are specific to the game (words like the title, game company, etc.)
+		c. broader data?
+	6. Analyze word counts from steam reviews
+		a. patterns?
+		b. compare types of reviews? (like, didn't like, funny)
+		c. broader data?
+	7. Build sample dictionary
+		a. Build steam dictionary
+		b. Build meta dictionary
+		c. Do they correlate?
+		d. Compare to ANSI dictionary to remove words like 'good' and 'bad'
+		e. Scott's dictionary?
+	8. Dictionary applications
+		a. test dictionary on samples from reviews--can it predict which game? (useless, maybe? fun, yes!)
+		b. correlation with steam sales data?
+
+II. Application: collect other game data
+	1. Load reviews from meta site
+	2. Load user reviews from steam
+	3. Steam sales data
+	4. Analyze steam data
+		a. Same as above, but can they be grouped by company?
+	5. Word counts in game reviews
+	6. " Steam reviews
+	7. Robust dictionary
+		a. are there dictionaries for game companies? (i.e. EA reviews contain specific words)
+	8. Apply the dictionary to upcoming releases
+
+III. Stock prices? Company failures?

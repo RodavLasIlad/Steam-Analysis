@@ -1,0 +1,5 @@
+ag627bqb0c0zyi5rkb9i3kkq66rg62c
+
+curl -i -H 'Accept: application/vnd.twitchtv.v2+json'\
+-H 'Client-ID: ag627bqb0c0zyi5rkb9i3kkq66rg62c'\
+'https://api.twitch.tv/kraken/channels/hebo' 
